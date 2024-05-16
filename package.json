@@ -1,0 +1,31 @@
+{
+    "name": "@nuxtlab/utils",
+    "version": "0.0.1",
+    "description": "Front-End utilities that facilitate add-ons development for FiveM.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsup"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/nuxtlab/utils.git"
+    },
+    "homepage": "https://github.com/nuxtlab/utils#readme",
+    "bugs": {
+        "url": "https://github.com/nuxtlab/utils/issues"
+    },
+    "keywords": [
+        "fivem",
+        "utils",
+        "tools",
+        "vue",
+        "react"
+    ],
+    "author": "cool0356",
+    "license": "MIT",
+    "devDependencies": {
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.5"
+    }
+}
