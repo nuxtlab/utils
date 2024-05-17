@@ -75,7 +75,7 @@ fetchNui('test', {
 -   Allows you to listen to nui callbacks.
 
 ```javascript
-useNuiEvent(handler: (data: unknown) => void): void;
+useNuiEvent(handler: (event: { action: string, data?: object }) => void): void;
 ```
 
 -   Usage
