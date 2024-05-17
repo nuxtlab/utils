@@ -41,9 +41,9 @@ isEnvBrowser(): boolean;
 ```javascript
 // import
 
-const browser = isEnvBrowser()
+const isBrowser = isEnvBrowser()
 
-console.log(browser) // returns true if the page developed is open in the browser.
+console.log(isBrowser) // returns true if the page developed is open in the browser.
 ```
 
 ## fetchNui
@@ -59,7 +59,7 @@ fetchNui(eventName: string, data: object): any;
 ```javascript
 // import
 
-fetchNui('test', {
+fetchNui('updateName', {
     name: 'Mark Edward'
 })
     .then((data) => {
@@ -84,7 +84,7 @@ useNuiEvent(handler: (event: { action: string, data?: object }) => void): void;
 // import
 
 useNuiEvent((event) => {
-    console.log(event.data) // prints the event data.
+    console.log(event) // prints the event.
 })
 ```
 
@@ -101,7 +101,7 @@ sendDebugEvent(name: string, data?: object): void;
 ```javascript
 // import
 
-sendDebugEvent('test-event', {
+sendDebugEvent('updateName', {
     name: 'Mark Edward'
 })
 ```
